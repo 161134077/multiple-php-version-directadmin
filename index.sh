@@ -7,6 +7,6 @@ cd /usr/local/directadmin/custombuild
 ./build set php1_mode php-fpm
 ./build set php2_mode php-fpm
 ./build set php3_mode php-fpm
-./build set php4_mode php-fpm
+./build set php4_mode fastcgi
 ./build php n
 ./build rewrite_confs
